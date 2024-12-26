@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_push_hotels",
+  "info": {
+    "displayName": "pushHotel",
+    "icon": "gate"
+  },
+  "options": {},
+  "attributes": {
+    "hotels": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hotel.hotel"
+    }
+  }
+}

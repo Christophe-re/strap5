@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_home_hotel_highlightings",
+  "info": {
+    "displayName": "HomeHotelHighlighting",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "pushHotelByGamme": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.push-hotel-by-gamme"
+    }
+  }
+}

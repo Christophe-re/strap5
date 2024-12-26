@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_rows",
+  "info": {
+    "displayName": "row",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card"
+    }
+  }
+}

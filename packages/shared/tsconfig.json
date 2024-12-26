@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "outDir": "./dist"
+  },
+  "plugins": [
+    {
+      "extensions": [".css"],
+      "extract": "index.css",
+      "minimize": true,
+      "plugins": [
+        {
+          "name": "tailwindcss",
+          "config": "./tailwind.config.js"
+        },
+        {
+          "name": "autoprefixer"
+        }
+      ]
+    }
+  ],
+  "include": ["."],
+  "exclude": ["dist", "node_modules", "**/*.spec.ts"]
+}

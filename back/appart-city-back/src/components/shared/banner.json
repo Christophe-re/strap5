@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "arrowDown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TitleBaner": {
+      "type": "text"
+    },
+    "ImgBanner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

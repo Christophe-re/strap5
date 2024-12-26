@@ -1,0 +1,70 @@
+Arguments: 
+  /Users/intact/.nvm/versions/node/v20.12.2/bin/node /Users/intact/.nvm/versions/node/v16.14.2/bin/yarn add qs
+
+PATH: 
+  /Users/intact/.nvm/versions/node/v20.12.2/bin:/Users/intact/.pyenv/shims:/Users/intact/.pyenv/bin:/Users/intact/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/Users/intact/.nvm/versions/node/v16.14.2/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/intact/.pyenv/bin:/usr/local/sbin:/Users/intact/.nvm/versions/node/v16.14.2/bin:/Users/intact/.rvm/bin:/Users/intact/Library/Android/sdk:/Users/intact/Library/Android/sdk/platform-tools:/Users/intact/Library/Android/sdk/tools:/Users/intact/Library/Android/sdk/emulator:/Users/intact/Applications/Flutter/flutter/bin:/Users/intact/.rvm/bin:/Users/intact/Library/Android/sdk:/Users/intact/Library/Android/sdk/platform-tools:/Users/intact/Library/Android/sdk/tools:/Users/intact/Library/Android/sdk/emulator:/Users/intact/Library/Android/sdk/platform-tools:/Users/intact/Applications/Flutter/flutter/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.12.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/intact/Library/Caches/Yarn/v6/npm-ansi-regex-5.0.1-082cb2c89c9fe8659a311a53bd6a4dc5301db304-integrity/node_modules/ansi-regex/package.json' -> '/Users/intact/Desktop/workspace/strapiv5/appart-city/apps/ac-loisir/node_modules/eslint/node_modules/ansi-regex/package.json'
+
+npm manifest: 
+  {
+    "name": "ac-loisir",
+    "private": true,
+    "sideEffects": false,
+    "type": "module",
+    "scripts": {
+      "build": "remix vite:build",
+      "dev": "remix vite:dev",
+      "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+      "start": "remix-serve ./build/server/index.js",
+      "typecheck": "tsc"
+    },
+    "dependencies": {
+      "@remix-run/node": "^2.13.1",
+      "@remix-run/react": "^2.13.1",
+      "@remix-run/serve": "^2.13.1",
+      "component-library": "workspace:^",
+      "isbot": "^4.1.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "shared": "workspace:^"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^2.13.1",
+      "@types/react": "^18.2.20",
+      "@types/react-dom": "^18.2.7",
+      "@typescript-eslint/eslint-plugin": "^6.7.4",
+      "@typescript-eslint/parser": "^6.7.4",
+      "autoprefixer": "^10.4.20",
+      "eslint": "^8.38.0",
+      "eslint-import-resolver-typescript": "^3.6.1",
+      "eslint-plugin-import": "^2.28.1",
+      "eslint-plugin-jsx-a11y": "^6.7.1",
+      "eslint-plugin-react": "^7.33.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "postcss": "^8.4.47",
+      "tailwindcss": "^3.4.14",
+      "typescript": "^5.1.6",
+      "vite": "^5.1.0",
+      "vite-tsconfig-paths": "^4.2.1"
+    },
+    "engines": {
+      "node": ">=20.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
